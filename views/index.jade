@@ -1,5 +1,7 @@
 extends layout
 
 block content
-  h1= title
   p Welcome to #{title}
+  form#dropzone.dropzone(action='/file-upload')
+    .fallback
+      input(name='file', type='file')
