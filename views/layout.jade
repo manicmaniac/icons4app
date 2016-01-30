@@ -9,8 +9,11 @@ html(lang='en')
     script(src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.2.0/min/dropzone.min.js")
     script(src="javascripts/icons4app.js")
   body
+    .background
     header
-      .container
-      h1= title
-    .container
-      block content
+      .container.top
+        p Welcome to
+        h1= title
+    .container.dropform
+      .form-frame
+        block content
