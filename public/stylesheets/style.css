@@ -12,11 +12,7 @@ body {
   -webkit-filter: blur(2px);
   -ms-filter: blur(2px);
   filter: blur(2px);
-}
-
-header {
-  background-color: #ffffff;
-  opacity: 0.9;
+  z-index: -1;
 }
 
 .top {
