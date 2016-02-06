@@ -17,6 +17,7 @@ body {
 
 .top {
   padding-left: 50px;
+  text-align: center;
 }
 
 h1 {
@@ -48,10 +49,11 @@ a {
 }
 
 .form-frame {
-  width: 400px;
-  padding: 7px;
+  width: 32%;
+  padding: 0.5%;
   background-color: #ffffff;
   opacity: 0.9;
+  margin: 0 auto;
 }
 
 #dropzone {
